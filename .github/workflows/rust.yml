@@ -1,0 +1,31 @@
+name: Rust
+
+on:
+  push:
+    branches-ignore: [ "dependabot/**" ]
+    paths:
+      - .github/workflows/rust.yml
+      - src/*
+      - Cargo.lock
+      - Cargo.toml
+  pull_request:
+    branches: [ master ]
+    paths:
+      - .github/workflows/rust.yml
+      - src/*
+      - Cargo.lock
+      - Cargo.toml
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  check:
+    name: Check
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install gtk-dev
+      run: sudo apt-get install -y libgtk-3-dev
+    - name: Check
+      run: cargo check --verbose

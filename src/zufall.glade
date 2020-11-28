@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk+" version="3.20"/>
+  <object class="GtkAdjustment" id="AdjustmentFrom">
+    <property name="upper">2147483646</property>
+    <property name="value">1</property>
+    <property name="step-increment">1</property>
+    <property name="page-increment">10</property>
+  </object>
+  <object class="GtkAdjustment" id="AdjustmentTo">
+    <property name="upper">2147483646</property>
+    <property name="value">5</property>
+    <property name="step-increment">1</property>
+    <property name="page-increment">10</property>
+  </object>
+  <object class="GtkWindow" id="ZufallMainWindow">
+    <property name="title" translatable="yes">Zufall</property>
+    <property name="icon">/usr/share/pixmaps/zufall.png</property>
+    <property name="has-resize-grip">1</property>
+    <child type="titlebar">
+    </child>
+    <child>
+      <object class="GtkBox" id="RootBox">
+        <property name="visible">1</property>
+        <property name="orientation">vertical</property>
+        <child>
+          <object class="GtkInfoBar" id="ToFromWarning">
+            <property name="no-show-all">1</property>
+            <property name="message-type">warning</property>
+            <child internal-child="action_area">
+              <object class="GtkButtonBox" id="ToFromBBox">
+                <property name="spacing">6</property>
+                <property name="layout-style">end</property>
+                <child>
+                  <object class="GtkButton" id="ToFromOK">
+                    <property name="label" translatable="yes">OK</property>
+                    <property name="visible">1</property>
+                    <property name="can-focus">1</property>
+                    <property name="receives-default">1</property>
+                  </object>
+                  <packing>
+                    <property name="expand">1</property>
+                  </packing>
+                </child>
+              </object>
+              <packing>
+                <property name="fill">0</property>
+              </packing>
+            </child>
+            <child internal-child="content_area">
+              <object class="GtkBox" id="ToFromContentBox">
+                <property name="spacing">16</property>
+                <child>
+                  <object class="GtkLabel" id="ToFromMessage">
+                    <property name="visible">1</property>
+                    <property name="label" translatable="yes" context="is         From &gt;= To
+allow   From &lt; To">&quot;From&quot; musst be lower than &quot;To&quot;.</property>
+                    <property name="wrap">1</property>
+                    <property name="track-visited-links">0</property>
+                  </object>
+                </child>
+              </object>
+              <packing>
+                <property name="fill">0</property>
+              </packing>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="GtkGrid" id="MainContent">
+            <property name="visible">1</property>
+            <property name="margin-top">5</property>
+            <property name="border-width">10</property>
+            <property name="row-spacing">2</property>
+            <property name="column-spacing">2</property>
+            <property name="row-homogeneous">1</property>
+            <property name="column-homogeneous">1</property>
+            <child>
+              <object class="GtkLabel" id="LabelFrom">
+                <property name="visible">1</property>
+                <property name="label" translatable="yes">From:</property>
+              </object>
+              <packing>
+                <property name="left-attach">0</property>
+                <property name="top-attach">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="LabelTo">
+                <property name="visible">1</property>
+                <property name="label" translatable="yes">To:</property>
+              </object>
+              <packing>
+                <property name="left-attach">0</property>
+                <property name="top-attach">1</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkSpinButton" id="InFrom">
+                <property name="visible">1</property>
+                <property name="can-focus">1</property>
+                <property name="text" translatable="yes">1</property>
+                <property name="input-purpose">number</property>
+                <property name="adjustment">AdjustmentFrom</property>
+                <property name="climb-rate">1</property>
+                <property name="snap-to-ticks">1</property>
+                <property name="numeric">1</property>
+                <property name="wrap">1</property>
+                <property name="value">1</property>
+              </object>
+              <packing>
+                <property name="left-attach">1</property>
+                <property name="top-attach">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkSpinButton" id="InTo">
+                <property name="visible">1</property>
+                <property name="can-focus">1</property>
+                <property name="input-purpose">number</property>
+                <property name="adjustment">AdjustmentTo</property>
+                <property name="snap-to-ticks">1</property>
+                <property name="numeric">1</property>
+                <property name="wrap">1</property>
+                <property name="value">5</property>
+              </object>
+              <packing>
+                <property name="left-attach">1</property>
+                <property name="top-attach">1</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="Output">
+                <property name="visible">1</property>
+                <property name="ellipsize">middle</property>
+                <property name="track-visited-links">0</property>
+              </object>
+              <packing>
+                <property name="left-attach">1</property>
+                <property name="top-attach">2</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="GetButton">
+                <property name="label" translatable="yes">Generate</property>
+                <property name="visible">1</property>
+                <property name="can-focus">1</property>
+                <property name="receives-default">1</property>
+              </object>
+              <packing>
+                <property name="left-attach">0</property>
+                <property name="top-attach">2</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="position">1</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

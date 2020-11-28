@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Zufall
+GenericName=Get a random number.
+Comment=A programm to help on decision.
+Exec=zufall gui
+Icon=/usr/share/pixmaps/zufall.png
+Terminal=false
+Type=Application
+StartupNotify=false
+Categories=Utility;

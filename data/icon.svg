@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="128px"
+   height="128px"
+   viewBox="0 0 128 128"
+   version="1.1"
+   id="SVGRoot"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="icon.svg"
+   inkscape:export-filename=""
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <title
+     id="title16">Zufall - Icon</title>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="52.747484"
+     inkscape:cy="53.43604"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="704"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:grid-bbox="true"
+     inkscape:pagecheckerboard="true"
+     showborder="true"
+     borderlayer="false"
+     inkscape:showpageshadow="false"
+     showguides="false" />
+  <defs
+     id="defs3801">
+    <linearGradient
+       id="linearGradient2966"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#fcaf3e;stop-opacity:1;"
+         offset="0"
+         id="stop2964" />
+    </linearGradient>
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect95"
+       is_visible="true"
+       pattern="M 0,5 C 0,2.24 2.24,0 5,0 7.76,0 10,2.24 10,5 10,7.76 7.76,10 5,10 2.24,10 0,7.76 0,5 Z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect93"
+       is_visible="true" />
+  </defs>
+  <metadata
+     id="metadata3804">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Zufall - Icon</dc:title>
+        <cc:license
+           rdf:resource="https://opensource.org/licenses/MIT" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title></dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title></dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title></dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:language></dc:language>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>Icon</rdf:li>
+            <rdf:li>Zufall</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:description></dc:description>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Ebene 1">
+    <circle
+       id="path3825"
+       cy="64"
+       cx="64"
+       style="stroke-width:1.02811253;fill:#f57900;fill-opacity:1;opacity:1"
+       r="64" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot27"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><flowRegion
+         id="flowRegion29"><rect
+           id="rect31"
+           width="49.851028"
+           height="43.133514"
+           x="39.951534"
+           y="41.732971" /></flowRegion><flowPara
+         id="flowPara33">##</flowPara></flowRoot>    <path
+       style="fill:#000000;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       d="m 34,24.5 c -0.449214,-0.811305 8.189131,-10.167762 27.790479,-12.110723 6.346471,-0.709731 14.51977,-0.342038 22.185321,3.842394 3.452169,1.937061 6.644611,4.794606 8.973018,8.559456 1.837605,2.977128 2.968102,6.492207 3.091779,10.228417 0.02688,0.811995 0.0059,1.628601 -0.06411,2.446189 -0.541726,4.813305 -2.58572,8.946073 -5.219489,12.116022 -2.724399,3.320436 -5.842931,5.8394 -8.723716,7.866118 -3.115213,2.230972 -6.003891,4.045952 -8.412374,5.91746 0,0 -3e-6,2e-6 -3e-6,2e-6 -2.718301,2.149948 -4.841065,4.161616 -6.266168,6.44537 -1.700989,2.541702 -2.751893,6.110276 -3.591418,8.863393 -1.440961,4.933263 -2.375255,7.822869 -3.942421,10.282975 -1.023523,1.597688 -1.897563,2.235997 -2.320901,2.042931 -0.455883,-0.207907 -0.446867,-1.236057 -0.320897,-2.957077 0.169612,-2.229558 0.286938,-5.631747 0.736842,-10.471045 0.249154,-3.041179 0.809603,-7.201891 2.729319,-11.382587 1.721767,-3.543952 4.257384,-6.695106 7.345261,-9.466207 10e-7,-10e-7 2e-6,-2e-6 3e-6,-3e-6 2.837458,-2.58434 5.483773,-4.494486 8.374519,-6.796299 2.489874,-2.020609 4.948518,-4.108777 6.663959,-6.428048 1.591993,-2.198025 2.868479,-4.64674 2.994508,-6.964471 0.04279,-0.387996 0.05692,-0.785174 0.04404,-1.188417 -0.05918,-1.852563 -0.685713,-3.780458 -1.633976,-5.453217 C 83.2143,27.736109 81.243869,25.90861 79.073101,24.519753 74.326669,21.366481 67.733939,20.713028 62.209521,20.610723 45.594298,20.551337 34.826468,25.992647 34,24.5 Z"
+       id="path91"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect93;#path-effect95"
+       inkscape:original-d="m 34,24.5 c 9.334333,-2.667667 18.667667,-5.334333 28,-8 9.332333,-2.665667 19.334333,13.665667 29,20.5 9.66567,6.834333 -17.999,20.665667 -27,31 -9.001,10.334333 -3.665667,13.665667 -5.5,20.5 -1.834333,6.834333 -0.665667,1.665667 -1,2.5" />
+    <circle
+       style="fill:#000000;fill-opacity:1"
+       id="path97"
+       cx="59.75"
+       cy="110.75"
+       r="7.25" />
+  </g>
+</svg>
