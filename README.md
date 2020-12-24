@@ -1,4 +1,4 @@
-# zufall ![](https://badgen.net/badge/maintenance/passively-maintained/826500)
+# zufall ![](https://badgen.net/badge/maintenance/passively-maintained/308000)
 
 Zufall, a tool to help on decisions.
 
