@@ -60,7 +60,7 @@ fn cli(from: u128, to: u128) {
         println!("<FROM> must be smaller than <TO>");
         exit(50);
     }
-    let output = thread_rng().gen_range(from, to);
+    let output = thread_rng().gen_range(from..to);
     println!("random number: {}", output);
 }
 
@@ -85,7 +85,7 @@ fn gui() {
             output_box.set_label("");
             to_from_warning_var1.show();
         } else {
-            let output = &thread_rng().gen_range(value_from, value_to).to_string();
+            let output = &thread_rng().gen_range(value_from..value_to).to_string();
             output_box.set_label(output);
         }
     });
