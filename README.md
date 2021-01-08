@@ -1,4 +1,4 @@
-# zufall ![](https://badgen.net/badge/maintenance/passively-maintained/308000)
+# zufall [![maintenance-status: passively-maintained](https://img.shields.io/badge/maintenance--status-passively--maintained-yellowgreen)](https://gist.github.com/rusty-snake/574a91f1df9f97ec77ca308d6d731e29)
 
 Zufall, a tool to help on decisions.
 
