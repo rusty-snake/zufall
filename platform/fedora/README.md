@@ -11,7 +11,7 @@ directory = "vendor"
 __EOF__
 $ rm -rf ~/rpmbuild
 $ rpmdev-setuptree
-$ tar --exclude=".git" -czf ~/rpmbuild/SOURCES/zufall.tar.gz .
+$ tar --exclude=".git" --exclude=target -czf ~/rpmbuild/SOURCES/zufall.tar.gz .
 $ cp platform/fedora/zufall.spec ~/rpmbuild/SPECS
 $ cd ~/rpmbuild/SPECS
 $ rpmbuild -bb zufall.spec

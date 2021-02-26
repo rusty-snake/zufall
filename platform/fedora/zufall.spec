@@ -7,7 +7,9 @@ License:        MIT
 URL:            https://gtihub.com/rusty-snake/zufall
 Source0:        zufall.tar.gz
 
-BuildRequires:  cargo gtk3-devel
+BuildRequires:  gtk3-devel
+# Comment this line if you use rustup.
+BuildRequiers:  cargo
 
 %define debug_package %{nil}
 
@@ -20,7 +22,7 @@ A tool to help on decisions.
 
 
 %build
-/usr/bin/cargo build --release
+cargo build --release
 
 
 %install
