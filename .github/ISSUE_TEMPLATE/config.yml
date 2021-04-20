@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Zufall
+    url: https://github.com/rusty-snake/zufall
+    about: Zufall Repo
