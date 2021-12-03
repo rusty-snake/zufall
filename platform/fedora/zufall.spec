@@ -9,7 +9,7 @@ Source0:        zufall.tar.gz
 
 BuildRequires:  gtk3-devel
 # Comment this line if you use rustup.
-BuildRequiers:  cargo
+BuildRequires:  cargo
 
 %define debug_package %{nil}
 
