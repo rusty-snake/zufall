@@ -8,5 +8,5 @@ edition = "2021"
 
 [dependencies]
 rand = "0.8"
-clap = { version = "3.2.22", features = ["derive", "wrap_help"] }
+clap = { version = "3.2.22", features = ["wrap_help"] }
 gtk = { version = "0.15.5", features = ["v3_24"] }
