@@ -1,44 +1,44 @@
-use clap::{App, Arg, SubCommand};
+use clap::{Arg, Command};
 use gtk::prelude::*;
 use gtk::Builder;
 use rand::{thread_rng, Rng};
 use std::process::exit;
 
 fn main() {
-    let matches = App::new("Zufall")
+    let matches = Command::new("Zufall")
         .version("3.2.0-rolling")
         .about("Zufall, a tool to help on decisions.")
-        .usage("zufall <SUBCOMMAND>")
         .subcommand(
-            SubCommand::with_name("cli")
+            Command::new("cli")
                 .about("Use zufall in the shell")
-                .usage("zufall cli [<FROM> <TO>]")
                 .arg(
-                    Arg::with_name("FROM")
+                    Arg::new("FROM")
                         .help("lower limit of the number range")
                         .index(1)
                         .default_value("0"),
                 )
                 .arg(
-                    Arg::with_name("TO")
+                    Arg::new("TO")
                         .help("upper limit of the number range")
                         .index(2)
                         .default_value("1"),
                 ),
         )
-        .subcommand(SubCommand::with_name("gui").about("Start in graphical mode"))
+        .subcommand(Command::new("gui").about("Start in graphical mode"))
         .get_matches();
 
     match matches.subcommand_name() {
         Some("cli") => {
             let sc_matches = matches.subcommand_matches("cli").unwrap();
             let value_from: u128 = sc_matches
-                .value_of("FROM")
+                .get_one::<String>("FROM")
+                .map(|s| s.as_str())
                 .unwrap()
                 .parse()
                 .expect("Failed to parse '<FROM>'");
             let value_to: u128 = sc_matches
-                .value_of("TO")
+                .get_one::<String>("TO")
+                .map(|s| s.as_str())
                 .unwrap()
                 .parse()
                 .expect("Failed to parse '<TO>'");
