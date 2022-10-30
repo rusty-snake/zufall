@@ -43,7 +43,6 @@ OpenSUSE: `sudo zypper install cargo gtk3-devel glib2-devel`
 
 ### running
 
-    zufall cli 1 3
     zufall gui
 
 ## License
